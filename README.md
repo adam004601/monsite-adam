@@ -26,16 +26,4 @@
             <label for="message">Votre message:</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Envoyer</button>
-          </form>
-        </section>
-      </footer>
-    </section>
-  </footer>
-</body>
-</html>
-<nav>
-  <ul style="list-style: none; display: flex; justify-content: center; padding: 0; background-color: #000000;">
-    <li style="margin: 0 15px;"><a href="#about" style="color: white; text-decoration: none;">À propos</a></li>
-    <li style="margin: 0 15px;"><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
-  </ul>
-</nav>
+ 
