@@ -14,9 +14,6 @@
     <section>
       <h2>À propos</h2>
       <p>Ceci est une simple page web créée avec HTML et CSS.(par moi meme)</p>
-    </section>
-  </main>
-            <footer>
         <p>© 2025 - Monsite-adam</p>
         <section id="contact">
           <h2>Contact</h2>
