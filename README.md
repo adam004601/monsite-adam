@@ -4,13 +4,6 @@
   <meta charset="UTF-8">
   <title>Bienvenue sur mon premier site</title>
   <link rel="stylesheet" href="style.css">
-  git clone https://github.com/adam004601/monsite-adam.git
-  cd monsite-adam
-  git init
-  git add .
-  git commit -m "Premier commit"
-  git branch -M main
-  code .   # si tu utilises VS Code
 </head>
 <body>
   <header>
