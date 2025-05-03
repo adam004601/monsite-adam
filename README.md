@@ -23,6 +23,41 @@
           <form action="https://formspree.io/f/xkgrjznr" method="POST">
             <label for="email">Votre email:</label>
             <input type="email" id="email" name="email" required>
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+  }
+    h1 {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
             
             <label for="message">Votre message:</label>
             <textarea id="message" name="message" required></textarea>
