@@ -32,10 +32,3 @@ body {
     to {
       opacity: 1;
     }
-  }
-body {
-  background-image: url('https://imgs.search.brave.com/vUSyt6QJm23MH7u-EZgGb1KfgbHWUgxNVft6Xb1-T88/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leWVj/bG90aGVzLmZyL2Nk/bi9zaG9wL2ZpbGVz/L0lNR18wMTQ0Lmhl/aWM_dj0xNzI4MjIy/NjM1JndpZHRoPTE0/NDU');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
