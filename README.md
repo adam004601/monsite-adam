@@ -13,7 +13,8 @@
   <main>
     <section>
       <h2>À propos</h2>
-      <p>Ceci est une simple page web créée avec HTML et CSS.(par moi meme)</p>
+      <p>Ceci est une simple page web créée avec HTML et CSS.</p>
+      <p>Je suis le meilleur bande de pd!!!</p>
         <p>© 2025 - Monsite-adam</p>
         <section id="contact">
           <h2>Contact</h2>

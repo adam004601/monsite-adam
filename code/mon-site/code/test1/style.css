@@ -23,12 +23,12 @@ body {
   }
     h1 {
     animation: fadeIn 5s ease-in-out;
-  }
-  
-  @keyframes fadeIn {
+    }
+    @keyframes fadeIn {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
+  }
