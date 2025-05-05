@@ -22,7 +22,7 @@ body {
     padding: 10px;
   }
     h1 {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 5s ease-in-out;
   }
   
   @keyframes fadeIn {
