@@ -8,6 +8,7 @@
   <header>
     <h1>Bienvenue sur mon premier site !</h1>
     <p>Ce site est hébergé sur GitHub Pages 🎉</p>
+    <p>je suis le meilleur !!!!!</p>
   </header>
 
   <main>
@@ -22,6 +23,8 @@
             <label for="email">Votre email:</label>
             <input type="email" id="email" name="email" required>    
             <label for="message">Votre message:</label>
+            <label for="telephone">Numéro de téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Envoyer</button>
  
