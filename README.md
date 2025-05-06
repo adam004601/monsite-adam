@@ -23,6 +23,7 @@
             <label for="email">Votre email:</label>
             <input type="email" id="email" name="email" required>    
             <label for="message">Votre message:</label>
+            <button type="submit">Envoyer</button>
             <label for="telephone">Numéro de téléphone :</label>
             <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
             <textarea id="message" name="message" required></textarea>
