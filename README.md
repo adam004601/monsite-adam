@@ -19,12 +19,12 @@
         <p>© 2025 - Monsite-adam</p>
         <section id="contact">
           <h2>Contact</h2>
-          <form action="https://formspree.io/f/xkgrjznr" method="POST">
+        <form action="https://formspree.io/f/xkgrjznr" method="POST">
   <label for="nom">Nom :</label>
   <input type="text" id="nom" name="nom" required>
 
   <!-- Choix de la méthode de contact -->
-  <label for="contact_method">Méthode de contact :</label><br>
+  <label>Méthode de contact :</label><br>
   <input type="radio" id="email_option" name="contact_method" value="email" checked>
   <label for="email_option">Email</label><br>
   
@@ -34,14 +34,18 @@
   <!-- Champ email -->
   <div id="email_field" class="contact-field">
     <label for="email">Email :</label>
-    <input type="email" id="email" name="_replyto" placeholder="Entrez votre email" required>
+    <input type="email" id="email" name="_replyto" placeholder="Entrez votre email">
   </div>
 
   <!-- Champ téléphone -->
   <div id="phone_field" class="contact-field" style="display: none;">
     <label for="telephone">Numéro de téléphone :</label>
-    <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
+    <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro">
   </div>
+
+  <!-- Zone de texte pour le message -->
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
 
   <button type="submit">Envoyer</button>
 </form>
@@ -52,25 +56,27 @@
   const phoneOption = document.getElementById('phone_option');
   const emailField = document.getElementById('email_field');
   const phoneField = document.getElementById('phone_field');
+  const emailInput = document.getElementById('email');
+  const phoneInput = document.getElementById('telephone');
 
-  // Initialisation du formulaire selon le choix par défaut (email)
-  emailOption.addEventListener('change', () => {
-    emailField.style.display = 'block';
-    phoneField.style.display = 'none';
-  });
-
-  phoneOption.addEventListener('change', () => {
-    emailField.style.display = 'none';
-    phoneField.style.display = 'block';
-  });
-
-  // Activer le bon champ au début (l'email est sélectionné par défaut)
-  if (emailOption.checked) {
-    emailField.style.display = 'block';
-    phoneField.style.display = 'none';
-  } else {
-    emailField.style.display = 'none';
-    phoneField.style.display = 'block';
+  function toggleFields() {
+    if (emailOption.checked) {
+      emailField.style.display = 'block';
+      phoneField.style.display = 'none';
+      emailInput.required = true;
+      phoneInput.required = false;
+    } else {
+      emailField.style.display = 'none';
+      phoneField.style.display = 'block';
+      emailInput.required = false;
+      phoneInput.required = true;
+    }
   }
+
+  emailOption.addEventListener('change', toggleFields);
+  phoneOption.addEventListener('change', toggleFields);
+
+  // Initialiser les champs correctement
+  toggleFields();
 </script>
 
