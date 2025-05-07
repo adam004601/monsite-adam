@@ -24,9 +24,3 @@ body {
     h1 {
     animation: fadeIn 5s ease-in-out;
     }
-    body {
-      background-image: url("https://imgs.search.brave.com/hga5ig1pjvCQB3EJGQ87X-rU8lNcbRyzIQXUVjUJXxU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly94LW1l/bWVzLmNvbS9zdG9y/YWdlL21lZGlhcy9q/eUViRGRVeE54dzZs/VlVoS3o2cXJ5MXZ6/b1lwMXhEdUljMDVz/WGVILmpwZw");
-      background-size: cover;
-      background-position: center;
-    }
-    
